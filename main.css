@@ -1,0 +1,320 @@
+
+body {
+  	background-color: black;
+}
+
+.frame {
+  	width: 1000px;
+  	height: 600px;
+  	background: #dbbca4;
+  	margin: 30px auto;
+  	position: relative;
+  	z-index: -2;
+}
+
+.table {
+  	width: 529.75px;
+	height: 442.78px;
+  	background-color: #5b5c34;
+  	position: absolute;
+  	right: 0px;
+  	bottom: 0px;
+  	z-index: -1; 
+}
+
+.table-2 {
+  	width: 279px;
+	height: 157px;
+  	background-color: #5b5c34;
+  	position: absolute;
+  	top: 0px;
+  	right: 0px;
+  	z-index: -1;
+}
+
+.table-3 {
+  	position: absolute;
+  	right: 279px;
+  	top: 0px;
+  	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 159px 252px;
+	border-color: transparent transparent #5b5c34 transparent;
+  	z-index: -1;
+}
+
+.table-4 {
+	width: 246px;
+	height: 303px;
+	background-color: #5b5c34;
+  	position: absolute;
+  	bottom: 0px;
+  	left: 229px;
+  	z-index: -1;
+}
+
+.table-5 {
+	position: absolute;
+  	right: 529px;
+  	bottom: 302px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 141px 242px;
+	border-color: transparent transparent #5b5c34 transparent;
+	z-index: -1;
+}
+
+.table-6 {
+	position: absolute;
+	transform: rotate(9deg);
+  	left: 52px;
+  	bottom: 23px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 151px 180px 160px 0;
+	border-color: transparent #5b5c34 transparent transparent;
+}
+
+.table-7 {
+	transform: rotate(-37.78deg);
+	width: 110px;
+	height: 175px;
+	background-color: #5b5c34;
+  	position: absolute;
+  	bottom: 13px;
+  	left: 150px;
+  	z-index: -1;
+}
+
+.table-8 {
+	background-color: #5b5c34;
+  	bottom: 0px;
+  	left: 220px;
+  	z-index: -1;
+	position: absolute;
+	width: 58px;
+	height: 69px;
+}
+
+.pumpkin {
+	background-image: linear-gradient(#d46f2f, #d46f2f, #9e523e);
+  	position: absolute;
+	width: 200px;
+	height: 192px;
+  	border-radius: 50%;
+  	right: 449px;
+  	bottom: 128px;
+}
+
+.pumpkin-2 {
+  	background-color: #d46f2f;
+  	position: absolute;
+	width: 47px;
+	height: 36px;
+  	border-radius: 50%;
+  	left: 417px;
+  	bottom: 300px;
+}
+
+.pumpkin-3 {
+  	background-color: #d46f2f;
+  	width: 12px;
+	height: 24px;
+  	transform: rotate(33.97deg);
+  	position: absolute;
+  	bottom: 301.7px;
+  	left: 416.68px;
+ 
+}
+
+.pstem {
+	background-color: #6b3b1a;
+	width: 16.89px;
+	height: 21.7px;
+	border-radius: 20%;
+	transform: rotate(-24.18deg);
+	position: absolute;
+	left: 416.7px;
+	top: 253.51px;
+}
+
+.squash {
+	background-image: linear-gradient(#eddcb7, #bfa067);
+	position: absolute;
+	width: 161.6px;
+	height: 198.14px;
+	border-radius: 50%;
+	transform: rotate(-5.94deg);
+	position: absolute;
+	right: 134.14px;
+	bottom: 181.03px;
+
+}
+
+.stripes {
+	background-color: #dbb067;
+	position: absolute;
+	width: 82px;
+	height: 83px;
+	border-radius: 50%;
+	top: 219px;
+	left: 455px;
+	z-index: -1;
+}
+
+.stripes-2 {
+	background-color: #dbb067;
+	position: absolute;
+	width: 47px;
+	height: 34px;
+	border-radius: 40%;
+	top: 195px;
+	left: 487px;
+}
+
+.stripes-3 {
+	background-color: #dbb067;
+	position: absolute;
+	width: 17.4px;
+	height: 47.88px;
+	transform: rotate(-3.88deg);
+	bottom: 340.46px;
+	left: 518.16px;
+}
+
+.stripes-4 {
+	background-color: #dbb067;
+	width: 16px;
+	height: 43.44px;
+	transform: rotate(39.14deg);
+	position: absolute;
+	left: 476.8px;
+	bottom: 355.34px;
+}
+
+.candle {
+	transform: rotate(3.9deg);
+	position: absolute;
+	width: 26.69px;
+	height: 133.63px;
+	background-color: #fffdf4;
+	top: 45.9px;
+	right: 327.63px;
+}
+
+.candletop {
+	transform: rotate(3.56deg);
+	position: absolute;
+	width: 28px;
+	height: 12px;
+	background-color: #fffdf4;
+	top: 38.86px;
+	right: 322px;
+	border-radius: 50%
+
+}
+
+.wick {
+	background-color: black;
+	position: absolute;
+	width: 3px;
+	height: 11px;
+	z-index: 1;
+	top: 30.97px;
+	right: 334.57px;
+}
+
+.candlestick {
+	transform: rotate(3.92deg);
+	position: absolute;
+	width: 40px;
+	height: 69.88px;
+	background-color: #f5b540;
+	right: 328.66px;
+	top: 173.29px;
+}
+
+.candleb {
+	position: absolute;
+	transform: rotate(2.24deg);
+	width: 40px;
+	height: 9px;
+	background-color: #f5b540;
+	left: 629px;
+	bottom: 352px;
+	border-radius: 50%
+}
+
+.stand {
+	transform: rotate(2.21deg);
+	position: absolute;
+	width: 7.53px;
+	height: 192.98px;
+	background-color: #f5b540;
+	bottom: 159.94px;
+	right: 354.64px;
+	z-index: 2;
+}
+
+.standside {
+	transform: rotate(-26.99deg);
+	position: absolute;
+	width: 58.61px;
+	height: 7px;
+	background-color: #f5b540;
+	bottom: 146.08px;
+	right: 358.99px;
+	z-index: 2;
+}
+
+.standbottom{
+	transform: rotate(3deg);
+	position: absolute;
+	width: 131.87px;
+	height: 101.22px;
+	background-color: #f5b540;
+	bottom: 107.36px;
+	right: 294.2px;
+	border-radius: 50%
+}
+
+.inside {
+	transform: rotate(4.2deg);
+	position: absolute;
+	width: 114.62px;
+	height: 84.8px;
+	background-color: #5b5c34;
+	z-index: 1;
+	bottom: 115.12px;
+	left: 583.04px;
+	border-radius: 50%
+}
+
+.chair {
+	transform: rotate(-30.23deg);
+	position: absolute;
+	width: 391.58px;
+	height: 101.73px;
+	z-index: -1;
+	background-image: linear-gradient(to right, #b8a594 , #e5ddd6);
+	left: 55.13px;
+	bottom: 323.99px;
+}
+
+.chair-2 {
+	background-color: #938477;
+	transform: rotate(-31.35deg);
+	position: absolute;
+	width: 34.38px;
+	height: 102.61px;
+	bottom: 223px;
+	left: 69.18px;
+}
+
+
+
+
+/* Your CSS goes here */
